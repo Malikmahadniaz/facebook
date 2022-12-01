@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,iniial-scale=1">
+    <meta charset="UTF-8">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome.css">
+</head>
+
+<body>
+
+    <!--------  nav  -------->
+
+    <nav>
+        <div class="navleft">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="navright">
+            <div class="searchbox">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navuser online" onclick="sMenu()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+        <!--        settings menu       -->
+
+        <div class="smenu">
+           <div id="darkbtn">
+               <span></span>
+           </div>
+           
+            <div class="smi">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="userprofile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="slinks">
+                    <img src="images/setting.png" class="sicon">
+                    <a href="">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="slinks">
+                    <img src="images/help.png" class="sicon">
+                    <a href="">Help & Support<img src="images/arrow.png" width="10px"></a>
+
+                </div>
+                <div class="slinks">
+                    <img src="images/display.png" class="sicon">
+                    <a href="">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+
+                </div> <div class="slinks">
+                    <img src="images/logout.png" class="sicon">
+                    <a href="">Logout<img src="images/arrow.png" width="10px"></a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!-------    container  ------>
+
+    <div class="container">
+
+        <!----------- left sidebar ---------->
+
+        <div class="leftside">
+            <div class="implinks">
+                <a href=""><img src="images/news.png">Latest News</a>
+                <a href=""><img src="images/friends.png">Friends</a>
+                <a href=""><img src="images/group.png">Group</a>
+                <a href=""><img src="images/marketplace.png">Marketplace</a>
+                <a href=""><img src="images/watch.png">Watch</a>
+                <a href="">See More</a>
+            </div>
+            <div class="shortlinks">
+                <p>Your Shortcuts</p>
+                <a href=""><img src="images/shortcut-1.png">Web Developers</a>
+                <a href=""><img src="images/shortcut-2.png">Web Design Course</a>
+                <a href=""><img src="images/shortcut-3.png">Full Stack Development</a>
+                <a href=""><img src="images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+
+        <!----------- main sidebar ---------->
+
+        <div class="mainside">
+
+            <!---------    storysection     --------->
+
+            <div class="storygallery">
+
+                <div class="story s1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story s2">
+                    <img src="images/member-1.png">
+                    <p>Alison</p>
+                </div>
+
+                <div class="story s3">
+                    <img src="images/member-2.png">
+                    <p>Jackson</p>
+                </div>
+
+                <div class="story s4">
+                    <img src="images/member-3.png">
+                    <p>Samona</p>
+                </div>
+
+                <div class="story s5">
+                    <img src="images/member-4.png">
+                    <p>John Doe</p>
+                </div>
+
+                <!--
+                <div class="story">
+                    <img src="images/member-5.png">
+                    <p></p>
+                </div>
+-->
+
+            </div>
+
+            <div class="write">
+                <div class="userprofile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="inputcontainer">
+                    <textarea name="" placeholder="What's on your mind, John?" rows="3"></textarea>
+                    <div class="addplinks">
+                        <a href=""><img src="images/live-video.png"> Live Video</a>
+                        <a href=""><img src="images/photo.png"> Photo/Video</a>
+                        <a href=""><img src="images/feeling.png"> Feeling/Activity</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="postcontainer">
+                <div class="row">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+
+                <p class="posttext">Subscribe <span>@mahadniaz</span> to watch more intresting videos on the go. <a href="">#Mahadniax</a> <a href="">#YT Channel</a></p>
+                <img src="images/feed-image-1.png" class="postimg">
+                <div class="row">
+                    <div class="activityicon">
+                        <div><img src="images/like-blue.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="postcontainer">
+                <div class="row">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+
+                <p class="posttext">Like and Share this video with friends, tag <span>@mahadniaz</span> facebook page on your post.Ask your doubts in the comments <a href="">#Mahadniax</a> <a href="">#YT Channel</a></p>
+                <img src="images/feed-image-2.png" class="postimg">
+                <div class="row">
+                    <div class="activityicon">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="postcontainer">
+                <div class="row">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+
+                <p class="posttext">Like and Share this video with friends, tag <span>@mahadniaz</span> facebook page on your post.Ask your doubts in the comments <a href="">#Mahadniax</a> <a href="">#YT Channel</a></p>
+                <img src="images/feed-image-3.png" class="postimg">
+                <div class="row">
+                    <div class="activityicon">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="postcontainer">
+                <div class="row">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+
+                <p class="posttext">Like and Share this video with friends, tag <span>@mahadniaz</span> facebook page on your post.Ask your doubts in the comments <a href="">#Mahadniax</a> <a href="">#YT Channel</a></p>
+                <img src="images/feed-image-4.png" class="postimg">
+                <div class="row">
+                    <div class="activityicon">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="postcontainer">
+                <div class="row">
+                    <div class="userprofile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+
+                <p class="posttext">Like and Share this video with friends, tag <span>@mahadniaz</span> facebook page on your post.Ask your doubts in the comments <a href="">#Mahadniax</a> <a href="">#YT Channel</a></p>
+                <img src="images/feed-image-5.png" class="postimg">
+                <div class="row">
+                    <div class="activityicon">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="load" type="button">Load More</button>
+
+        </div>
+
+        <!----------- right sidebar ---------->
+
+        <div class="rightside">
+            <div class="sidebartitle">
+                <h4>Events</h4>
+                <a href="">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="leftevent">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="rightevent">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="leftevent">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="rightevent">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebartitle">
+                <h4>Advertisement</h4>
+                <a href="">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="ads">
+
+
+            <div class="sidebartitle">
+                <h4>Conversation</h4>
+                <a href="">Hide Chat</a>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-1.png">
+
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-2.png">
+
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="images/member-3.png">
+
+                </div>
+                <p>Samona Rose</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Malik Mahad Website</p>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
